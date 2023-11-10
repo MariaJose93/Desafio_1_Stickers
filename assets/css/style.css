@@ -1,0 +1,29 @@
+body {
+    background-color:lightsteelblue;
+    text-align: center;
+}
+h1 {
+    color: purple;
+}
+.opcion-sticker {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.sticker {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+   
+}
+
+button {
+    background-color: palevioletred;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
