@@ -6,8 +6,12 @@ function Pedido() {
     sumaTotal = foto1 + foto2 + foto3;
 
     if (sumaTotal <= 10) {
-        alert ( 'Lleva un total de ' + sumaTotal + ' stickers.');
+        var resultado = document.querySelector('.respuesta');
+        resultado.innerHTML = 'Lleva un total de ' + sumaTotal + ' stickers.';
+    
     } else {
-        alert ('Excedes el máximo de stickers, el cual es 10');
+        var resultado = document.querySelector('.respuesta');
+        resultado.innerHTML = "Llevas demaciados stickers";
+        
     }
-}
+};
